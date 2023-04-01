@@ -427,6 +427,11 @@ body {
     height: 88px;
 }
 
+/* .customers-item:hover {
+    color: #404BBF;
+    border-color: #404BBF;
+} */
+
 .customers-link {
     display: block;
     width: 100%;
@@ -436,22 +441,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #8e8f99;
 }
 
 .customers-link:hover,
 .customers-link:focus {
+    /* border-color:  */
     border-color: #404BBF;
+    color: #404BBF;
 }
 
 .customers-icon {
-    fill: #8e8f99;
+    fill: currentColor;
 }
-
-.customers-icon:hover,
-.customers-icon:focus {
-    fill: #404BBF;
-}
-
 
 
 /* -----------------FOOTER------------------- */
